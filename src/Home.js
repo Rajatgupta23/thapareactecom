@@ -1,13 +1,13 @@
 import React from "react";
-import styled from "styled-components";
+
+import HeroSection from "./Component/Herosection";
 
 const Home = () => {
-  return <Wrapper className="test">Home</Wrapper>;
-};
+  const data = {
+    name: "Ghar ki Dukan",
+  };
 
-const Wrapper = styled.section`
-  height: 100vh;
-  background-color: ${({ theme }) => theme.colors.bg};
-`;
+  return <HeroSection myData={data} />;
+};
 
 export default Home;
