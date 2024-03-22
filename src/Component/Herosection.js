@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
+import Trusted from "./Trusted";
+import Services from "./Services";
 
 const HeroSection = ({ myData }) => {
   const { name } = myData;
